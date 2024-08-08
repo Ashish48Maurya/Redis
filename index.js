@@ -5,7 +5,7 @@ const Redis = require('ioredis');
 const redis = new Redis({
     host: 'redis-11574.c301.ap-south-1-1.ec2.redns.redis-cloud.com',
     port: 11574,
-    password: 'YaFfD6zQjEGlXlqkxsQOwsvWQPc6drbu'
+    password: ''
 });
 
 app.get('/', async (req, res) => {
